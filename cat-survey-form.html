@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Cat Survey Form</title>
+  </head>
+  <body>
+    <main>
+      <h1 id="title">Cat Survey Form</h1>
+      <p id="description">Please fill the form with your cat information!</p>
+      <img src="https://i.etsystatic.com/31885922/r/il/11e388/3324023994/il_794xN.3324023994_dcbf.jpg" alt="cute cat"/>
+      <form id="survey-form">
+        <fieldset class="personal-info">
+          <label>for="name">Please enter your full name: <input id="name" type="text" placeholder="Amelie Weaver" name="name" required/></label>
+          <label for="email">Please enter your email: <input id="email" type="email" placeholder="awesome@hello.com" name="email" required/></label>
+          <label for="number">Please enter your age: <input id="number" type="number" min="10" max="100" placeholder="20" name="name" required/></label>
+        </fieldset>
+        <fieldset>
+          <label>Why do you like cats? (required)</label>
+          <label for="cute"><input type="radio" id="cute" checked name="type-cat" class="inline" value="type-cute"/> Cute</label>
+          <label for="fluffy"><input type="radio" id="fluffy" name="type-cat" class="inline" value="type-fluffy"/> Fluffy</label>
+          <label for="lazy"><input type="radio" id="lazy" name="type-cat" class="inline" value="type-lazy"/> Lazy</label>
+          <label for="dropdown">How many cats do you have?
+            <select id="dropdown" name="how-many-cats">
+              <option value="0">none</option>
+              <option value="1">1 cat</option>
+              <option value="2">2 cats</option>
+              <option value="3">3 cats</option>
+              <option value="4">4 cats</option>
+              <option value="5">5 cats</option>
+              <option value="">more than 5</option>
+            </select>
+          </label>
+          <label for="cat-food">Can you describe your cat/s favorite food?<textarea id="cat-food" name="cat-food" placeholder="My cat likes tuna ..." rows="4" cols="40"></textarea></label>
+        <label for="cat-photo">Send us your favorite photo of your cat/s!<input type="file" id="cat-photo" name="cat-photo"/></label>
+        <label>Select the favorite games of your cat/s? Select at least one option ...
+        </label>
+        <label for="hide-and-seek"><input class="inline" id="hide-and-seek" type="checkbox" name="hide-and-seek" value="game-1" checked/>Hide and seek</label>
+        <label for="fetch"><input  class="inline" id="fetch" type="checkbox" name="fetch" value="game-2"/>Fetch</label>
+        <label for="chasing-games"><input  class="inline" id="chasing-games" type="checkbox" name="chasing-games" value="game-3"/>Chasing games with toys</label>
+        <label for="puzzle-toy"><input  class="inline" id="puzzle-toy" type="checkbox" name="puzzle-toy" value="game-4"/>Interactive puzzle toys</label>
+        <label for="paper-bags"><input  class="inline" id="paper-bags" type="checkbox" name="paper-bags" value="game-5"/>Paper bags</label>
+        <label for="cardboard-boxes" ><input  class="inline" id="cardboard-boxes" type="checkbox" name="cardboard-boxes" value="game-6" />Cardboard boxes</label>
+        </fieldset>
+        <input type="submit" value="Submit" id="submit"/>
+      </form>
+    </main>
+  </body>
+</html>

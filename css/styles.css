@@ -1,0 +1,84 @@
+body {
+  background-image: url(https://wallpapercave.com/wp/wp12332382.jpg);
+  background-size: 100% 1300px;
+  color: #764E42;
+  font-family: sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding-bottom: 6em;
+  }
+
+h1, p {
+  text-align: center;
+  margin: 1em auto;
+}
+
+h1 {
+  margin-bottom: 0; 
+}
+
+img {
+  width: 100%;
+  max-width: 50px;
+  height: auto;
+  margin: 1em auto;
+  display: block;
+  
+}
+
+form {
+ opacity: 80%;
+ background-color: #A77464;
+ width: 80vw;
+ max-width: 800px;
+ min-width: 300px;
+ margin: 0 auto;
+ padding-bottom: 0.5em;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+  color: #34231D;
+}
+
+input, select, textarea {
+  width: 100%;
+  margin: 5px 0 0 0;
+  min-height: 2em;
+  background-color: #764E42;
+  color: #DAC5BE;
+  border: 1px solid #764E42;
+}
+
+fieldset {
+  border: none;
+  padding: 1rem 1.5rem 1rem 1rem;
+  border-bottom: 3px solid #764E42;
+}
+
+::placeholder {
+  color: #BC978A;
+}
+
+.inline {
+  width: unset;
+  margin: 0 0.5em 0.2em 0;
+  vertical-align: middle;
+  accent-color: #764E42;
+}
+
+input[type="file"] {
+  color: #BC978A;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 50%;
+  margin: 2rem auto;
+  height: 2em;
+  font-size: 1.5em;
+  background-color: #34241E;
+  border-color: #BC978A;
+  min-width: 300px;
+}
